@@ -1,6 +1,6 @@
 package net.fabricmc.sadcraft.mixin;
 
-import net.fabricmc.sadcraft.ExampleMod;
+import net.fabricmc.sadcraft.SadcraftMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		SadcraftMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
