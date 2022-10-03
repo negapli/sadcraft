@@ -1,5 +1,6 @@
 {
   "itemGroup.sadcraft.SADCRAFT_GROUP": "SadCraft Junk",
-  "item.sadcraftmod.ruby": "Ruby"
+  "item.sadcraftmod.ruby": "Ruby",
+  "block.sadcraftmod.ruby_block" : "Block of Ruby"
 
 }

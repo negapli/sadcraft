@@ -31,6 +31,7 @@ dependencies {
 	modImplementation include("fr.catcore:server-translations-api:${project.strans}")
 	modImplementation include("eu.pb4:player-data-api:${project.playerdata}")
 	modImplementation include("eu.pb4:sgui:${project.sgui}")
+	modImplementation include("eu.pb4:polymer-blocks:${project.polyblock}")
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.

@@ -2,6 +2,7 @@ package net.fabricmc.sadcraft.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.sadcraft.SadcraftMod;
+import net.fabricmc.sadcraft.util.SadcraftItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -15,7 +16,7 @@ public class SadcraftItemRegister {
         SadcraftMod.LOGGER.debug("Register Mod Items for " + SadcraftMod.MOD_ID);
     }
 
-    public static final Item RUBY = registerItems("ruby",new SadcraftRuby(new FabricItemSettings().group(SadcraftItemGroup.SadcraftIdentifier())));
+    public static final Item RUBY = registerItems("ruby",new SadcraftRuby(new FabricItemSettings().group(SadcraftItemGroup.SADCRAFT_GROUP)));
 
 
 }
