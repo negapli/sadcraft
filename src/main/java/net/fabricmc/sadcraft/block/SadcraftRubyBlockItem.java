@@ -20,9 +20,9 @@ public class SadcraftRubyBlockItem extends BlockItem implements PolymerItem {
         super(block, settings);
     }
 
-    public Item getPolymerItem() {return Items.EMERALD_BLOCK;}
+    public Item getPolymerItem() {return Items.EMERALD;}
 
-    public PolymerModelData modelData = PolymerRPUtils.requestModel(Items.EMERALD_BLOCK,new Identifier("sadcraft","item/ruby_block"));
+    public PolymerModelData modelData = PolymerRPUtils.requestModel(Items.EMERALD,new Identifier("sadcraft","item/ruby_block"));
     @Override
     public int getPolymerCustomModelData(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
         return modelData.value();
